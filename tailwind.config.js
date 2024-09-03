@@ -3,6 +3,9 @@ export default {
   content: ["*", "index.html", "./src/**/*.{html,jsx,js}"],
   theme: {
     extend: { backgroundImage: { "bg-image": "url('to-do.jpeg')" } },
+    screens: {
+      xs: "470px",
+    },
   },
   plugins: [],
 };

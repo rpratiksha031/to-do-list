@@ -29,24 +29,26 @@ function Body() {
   };
   console.log("list", list);
   return (
-    <div className="bg-bg-image  py-40 text-center text-2xl ">
-      <div className="bg-teal-500 py-40 mx-64 mb-5 mx-60  ">
-        <div className="font-bold font-serif mb-10 ">ENTER YOUR TASK</div>
+    <div className="bg-bg-image  py-40 text-center text-2xl  sm:py-4 xs:py-20 xs:font-medium">
+      <div className="bg-teal-500 py-40 mx-64 mb-5 mx-60  sm:mx-20 sm:my-5 xs:grid-rows-4 xs:mx-8 xs:my-0 xs:py-8">
+        <div className="font-bold font-serif mb-10 xs:font-medium xs:mb-5">
+          ENTER YOUR TASK
+        </div>
         <input
           type="text"
           placeholder="add-tasks"
-          className="mr-5 px-5 py-3"
+          className="mr-5 px-5 py-3 sm:mr-1 sm:px-0 sm:py-0 xs:mr-0 xs:py-0 xs:px-0"
           value={task}
           onChange={(e) => setTask(e.target.value)}
         />
         <input
           type="time"
-          className="py-3"
+          className="py-3 sm:py-0 xs:py-0 xs:ml-2"
           value={time}
           onChange={(e) => setTime(e.target.value)}
         />
         <button
-          className="ml-5 bg-teal-100 px-3 hover:bg-stone-200 py-3"
+          className="ml-5 bg-teal-100 px-3 hover:bg-stone-200 py-3 sm:py-0 sm:px-1 xs:py-0 xs:px-1 xs:font-medium"
           onClick={handleChange}
         >
           Add
