@@ -37,7 +37,7 @@ function Body() {
         <input
           type="text"
           placeholder="add-tasks"
-          className="mr-5 px-5 py-3 sm:mr-1 sm:px-0 sm:py-0  xs:py-0 xs:px-0  xs:mx-0 xs:mb-3"
+          className=" px-5 py-3 sm:mr-1 sm:px-0 sm:py-0  xs:py-0 xs:px-0  xs:mx-10 xs:mb-3"
           value={task}
           onChange={(e) => setTask(e.target.value)}
         />
