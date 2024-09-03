@@ -1,12 +1,6 @@
 import { useState } from "react";
 import { RiDeleteBinLine } from "react-icons/ri";
 
-const fakeList = [
-  {
-    task: "sleep",
-    time: "10:29",
-  },
-];
 function Body() {
   const [list, setList] = useState([]);
 
