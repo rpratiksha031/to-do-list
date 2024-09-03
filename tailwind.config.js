@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: { backgroundImage: { "bg-image": "url('to-do.jpeg')" } },
     screens: {
-      xs: "470px",
+      xs: "350px",
     },
   },
   plugins: [],
