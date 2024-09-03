@@ -30,14 +30,14 @@ function Body() {
   console.log("list", list);
   return (
     <div className="bg-bg-image  py-40 text-center text-2xl  sm:py-4 xs:py-20 xs:font-medium">
-      <div className="bg-teal-500 py-40 mx-64 mb-5 mx-60  sm:mx-20 sm:my-5 xs:grid-rows-4 xs:mx-8 xs:my-0 xs:py-8">
+      <div className="bg-teal-500 py-40 mx-64 mb-5   sm:mx-20 sm:my-5 xs:grid-rows-4 xs:mx-8 xs:my-0 xs:py-8">
         <div className="font-bold font-serif mb-10 xs:font-medium xs:mb-5 xs:py-5">
           ENTER YOUR TASK
         </div>
         <input
           type="text"
           placeholder="add-tasks"
-          className="mr-5 px-5 py-3 sm:mr-1 sm:px-0 sm:py-0 xs:mr-0 xs:py-0 xs:px-0 xs:mx-3 xs:mx-0 xs:mb-3"
+          className="mr-5 px-5 py-3 sm:mr-1 sm:px-0 sm:py-0  xs:py-0 xs:px-0  xs:mx-0 xs:mb-3"
           value={task}
           onChange={(e) => setTask(e.target.value)}
         />
